@@ -1,9 +1,12 @@
 # vagrantfile
-
 Vmware:
 
 Open CMD:
+```
+vagrant plugin install vagrant-vmware-desktop
 
+https://www.vagrantup.com/docs/providers/vmware/installation
+https://www.vagrantup.com/vmware/downloads
 ```
 
 
@@ -19,4 +22,6 @@ Vagrant.configure("2") do |config|
   end
 end
 ```
-
+```
+vagrant up --provider vmware_desktop
+```
