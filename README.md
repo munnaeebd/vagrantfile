@@ -25,3 +25,10 @@ end
 ```
 vagrant up --provider vmware_desktop
 ```
+
+```
+# vaagrant init and launch
+mkdir vagrant-ubuntu-1
+vagrant init bento/ubuntu-20.04
+vagrant up
+```
